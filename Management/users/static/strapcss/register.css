@@ -1,0 +1,137 @@
+body {
+  background-color: rgb(183,209,231);
+  font-family: "Times New Roman", Times, serif !important;
+  }
+  .title{
+    color:palevioletred;
+    text-align: center;
+    font-size: 2rem;
+  }
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+  .navbar1-custom{
+    height:40px;
+  }
+  .navbar-custom{
+  background-color: aliceblue;
+  height:75px;
+}
+#logo {
+    border-radius:50px;
+    padding-left:0%;
+    height: 50px;
+    width: 50px;
+    transition:transform .2s;
+    margin-left:5px;
+    border: 2px solid white;
+   }
+.nav-item2{
+    color:palevioletred;
+    font-size: 1.3rem;
+  
+}
+.nav-link{
+    color: palevioletred;
+    font-size: 1.1rem;
+}
+  
+.nav-item2{
+    position:relative;
+    left:1250px;
+    margin-right: 2rem;
+    justify-content: space-between;
+}
+
+.btn{
+    border-color: palevioletred !important;
+    position: relative;
+    right: 10px;
+}
+.menu-btn{
+    font-size: 2.5rem;
+    border-radius: .5rem;
+    background:var(--PVR);
+    color:#fff;
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+    display: none;
+ }
+
+ .content-section {
+    background: #ffffff;
+    padding: 10px 20px;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    margin-bottom: 20px;
+  }
+ /* contact.css*/
+.h3{
+  color:palevioletred;
+    font-size: 4rem;
+    margin-top: 20px;
+    position: absolute;
+    right:0;
+ } 
+ .consecr{
+  border:2px solid palevioletred;
+ }
+
+p{
+   padding-top:2px;;
+   font-size:1.2rem;
+   padding-left: 20px;
+}
+
+.cont_main{
+  height: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  
+}
+.container_col-6{
+  height: 460px;
+  width: 660px;
+  margin-top:1.5rem;
+  padding-top:1rem;
+  border:1px solid #DB7093;
+  background-color: whitesmoke;
+  position: relative;
+ left: 180px;
+}
+.boxape
+  {
+    border:1px solid #DB7093;
+   width:400px;
+   background-color: whitesmoke;
+   padding:2rem 2rem;
+   margin-top: 1.5rem;
+   margin-left: 50px;
+   text-align: center;
+   font-size: 1.2rem;
+   height: 460px;
+    top:2px;
+  }
+  .boxape i,b{
+    color: #DB7093;
+  }
+  .boxape:hover{
+   background-color:#db707000;
+  }
+  .container{
+    border:2px solid palevioletred;
+  }
+  .btn-sub{
+    border-color: palevioletred !important;
+    margin:1rem  18rem;
+  padding: .5rem;
+  }
+  .btn-sub:hover{
+    background-color: #DB7093;
+  }
+
+  

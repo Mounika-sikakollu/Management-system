@@ -1,0 +1,41 @@
+{% extends 'users/base2.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+<h3 class="title">Feedback</h3>
+<p>Let us know what you think about our hospital as well as the doctor you consulted.</p>
+<div class="container col-6">
+    <form method="POST" action="#">
+        {% csrf_token %}
+          <div class="form-group col-13">
+            <label for="name">Full Name</label>
+            <input name="full_name" type="text" class="form-control" id="name" placeholder="Full Name" required>
+          </div>
+        
+          <div class="form-group col-13">
+            <label for="exampleInputEmail">Email</label>
+            <input  name="email" type="email" class="form-control" id="exampleInputEmail" placeholder="name@example.com" aria-describedby="emailHelp" required>
+          </div>
+
+          <div class="form-group col-13">
+            <label for="datef">Date</label>
+            <input name="date" type="date" class="form-control" id="datef" placeholder="Date" required>
+          </div>
+        
+          <div class="form-group col-13">
+            <label for="exampleInputdrname">Doctor Name</label>
+            <input name="drname" type="text" class="form-control" id="exampleInputdrname" placeholder="Dr Name">
+          </div>
+
+          <div class="form-group col-13">
+            <label for="exampleInputservices">Services</label>
+            <input name="services" type="text" class="form-control" id="exampleInputphone_number" placeholder="Services"  required>
+          </div>
+        
+          <div class="form-group col-13">
+            <label for="message" >Message</label>
+            <textarea name="message"class="form-control" id="message" rows="3" placeholder="Write us a message" required></textarea>
+            <input type="submit" class="btn-sub" value="Submit" style="background-color:white!important;">
+          </div>
+    </form>
+</div>
+{% endblock content %}
